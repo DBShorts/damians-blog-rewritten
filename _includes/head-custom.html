@@ -1,0 +1,30 @@
+<!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+<link rel="shortcut icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Press%20Start%202P">
+<link rel="stylesheet" href="{{ site.baseurl }}/css/override.css" />
+<a href="https://linktr.ee/dbshorts"><button type="button">My Linktree!</button></a>
+<input id="clickMe" type="button" value="Light (Inverted) Theme" onclick="Invert();" />
+<input id="clickMe" type="button" value="Dark Theme" onclick="Revert();" />
+<!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=8088973&style=0049&nbdigits=9&type=page&initCount=0" title="Free Counter" Alt="web counter (if you see this text an ad blocker may be causing issues)"   border="0" /></a>                                    
+<script>
+  function Invert() {
+    javascript:(()=>{const s=document.documentElement.style;s.backgroundColor='black';s.filter='invert(100%)';})();void 0;
+  };
+  function Revert() {
+    javascript:(()=>{const s=document.documentElement.style;s.backgroundColor='black';s.filter='invert(0%)';})();void 0;
+  };
+</script>
+
+
+<!-- Setup theme-color -->
+{% include head-custom-theme-colors.html %}
+
+<!-- Setup Google Analytics -->
+{% include head-custom-google-analytics.html %}
+
+<!-- You can set your favicon here -->
+<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+
+<!-- end custom head snippets -->
