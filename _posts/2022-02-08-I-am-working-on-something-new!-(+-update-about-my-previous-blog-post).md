@@ -1,0 +1,4 @@
+# I am working on something new! (+ update about my previous blog post)
+Recently, I have been working on a Minecraft themed survival game! Along with this, I have been working on adding some easter eggs to my website! With this, though, comes a kinda sad announcement. That thing from last blog post that I can remotely update? It doesnt really work that well because Turbowarp sometimes resets cloud variables. As sad and annoying as that is, I can still use some things from it in my main website, including all the easter eggs!
+
+I'm ending this blog post here. Here is a link to the video of the Minecraft game I was talking about! https://www.youtube.com/watch?v=U1FlQDHZNAo Note that it is currently still a work in progress and isnt released yet, and anything in that video is subject to change.
